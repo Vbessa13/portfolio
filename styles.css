@@ -298,12 +298,14 @@ html, body {
 /* Skills */
 .skills {
   padding: 3rem 0;
+  text-align: center;
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
+  justify-content: center;
 }
 
 .skill {
@@ -316,13 +318,16 @@ html, body {
 
 /* Contact */
 .contact {
-  padding: 3rem 0;
+    padding: 3rem 0;
+    text-align: center; /* CENTRALIZA O TÍTULO E O TEXTO */
 }
 
 .contact-form {
-  display: grid;
-  gap: 0.6rem;
-  max-width: 560px;
+    display: grid;
+    gap: 0.6rem;
+    max-width: 560px;
+    margin: 1.5rem auto 0; /* CENTRALIZA A CAIXA DO FORMULÁRIO */
+    text-align: left; /* Mantém "Nome", "Email" alinhados à esquerda (mais bonito) */
 }
 
 .contact-form label {
@@ -349,6 +354,7 @@ html, body {
   display: flex;
   gap: 0.6rem;
   margin-top: 0.4rem;
+  justify-content: center;
 }
 
 /* Footer */
