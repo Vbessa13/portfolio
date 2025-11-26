@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Portfolio Pessoal - Mostre seus projetos, competências e contatos" />
+        <title>Portfólio — Vitor </title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="#">Vitor</a>
+                <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="sr-only">Abrir menu</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <nav id="primary-navigation" class="primary-navigation" role="navigation">
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#experiencia">Experiência</a></li>
+                        <li><a href="#cursos">Certificações</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero container" id="home">
+                <div class="hero-content">
+                    <h1>Olá, eu sou <span class="accent">Vitor</span></h1>
+                    <p>Desenvolvedor Fullstack — Criando experiências, interfaces e soluções digitais.</p>
+                    <p class="cta-row">
+                        <a class="btn primary" href="#projetos">Ver projetos</a>
+                        <a class="btn ghost" href="#contato">Entrar em contato</a>
+                    </p>
+                </div>
+                <div class="hero-avatar" aria-hidden="true">
+                    <img src="images/vitor.png" alt="Minha foto de perfil" class="avatar-image" width="250" height="330" style="border-radius: 50%;" />
+                </div>
+            </section>
+
+            <section id="sobre" class="container about">
+                <h2>Sobre mim</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Sou estudante de Ciência da Computação na UFU com foco em desenvolvimento backend.</p>
+                        <p>Tenho experiência prática com Java e C em projetos acadêmicos, aplicando conceitos de programação orientada a objetos e programação procedural.</p>
+                        <p>No desenvolvimento web, possuo base sólida em HTML, CSS e JavaScript, utilizada principalmente para complementar aplicações do lado do servidor.</p>
+                        <p>Desenvolvi competências em modelagem e implementação de bancos de dados relacionais, com ênfase no PostgreSQL, além de estudar fundamentos de 
+                        estruturas de dados e lógica de programação, o que aprimora minha capacidade de criar soluções eficientes, escaláveis e bem estruturadas para o backend.</p>
+                    </div>
+                    <ul class="personal-info">
+                        <li><strong>Local:</strong> Uberlândia, Brasil</li>
+                        <li><strong>Email:</strong> <a href="mailto:vitor.santini@hotmail.com">vitor.santini@hotmail.com</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vitor-santini/" target="_blank">in/vitor-santini/</a></li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/Vbessa13" target="_blank">github.com/Vbessa13</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="experiencia" class="container experience">
+                <h2>Experiência Profissional</h2>
+                <div class="timeline">                   
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h3>Assistente de TI</h3>
+                            <span class="timeline-date">Nov 2021 - Abr 2022</span>
+                        </div>
+                        <h4 class="company">Rede de Supermercados Reis</h4>
+                        <p>Atuei no gerenciamento de chamados e demandas de colaboradores, prestando suporte técnico em hardware, software e redes. 
+                        Realizei instalação e configuração de sistemas, atendimento via service desk, testes funcionais e acompanhamento de desempenho de equipamentos, 
+                        garantindo agilidade e eficiência na resolução de problemas.</p>
+                        <p>Tech Stack: Windows Server, Linux, PostgreSQL, Mikrotik LAN, Helpdesk.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="cursos" class="container courses">
+                <h2>Cursos e Certificações</h2>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <h3>Aceleração Microsoft AI Agents</h3>
+                        <p class="institution">DIO / Microsoft</p>
+                        <p class="course-info">Concluído em 2025 • 4h</p>
+                        <a href="certificados/Vitor Santini Bessa - Aceleração Microsoft Al Agents.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+                    
+                    <div class="course-card">
+                        <h3>Aplicações Práticas de Inteligência Artificial com GitHub Copilot e Azure</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 6h</p>
+                        <a href="certificados/Vitor Santini Bessa - Aplicações Práticas de Inteligência Artificial com GitHub Copilot e Azure.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+                    
+                    <div class="course-card">
+                        <h3>Introdução ao Java e seu Ambiente de Desenvolvimento</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 2h</p>
+                        <a href="certificados/Vitor Santini Bessa - Introdução ao Java e seu Ambiente de Desenvolvimento.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Fundamentos da Linguagem de Programação Java</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 2h</p>
+                        <a href="certificados/Vitor Santini Bessa - Fundamentos da Linguagem de Programação Java.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Princípios de Desenvolvimento de Aplicações Java</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 8h</p>
+                        <a href="certificados/Vitor Santini Bessa - Princípios de Desenvolvimento de Aplicações Java.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Versionamento de Código com Git e GitHub</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 2h</p>
+                        <a href="certificados/Vitor Santini Bessa - Versionamento de Código com Git e GitHub.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>HTML E CSS: AMBIENTES DE DESENVOLVIMENTO, ESTRUTURA DE ARQUIVOS E TAGS</h3>
+                        <p class="institution">ALURA</p>
+                        <p class="course-info">Concluído em 2025 • 8h</p>
+                        <a href="certificados/Vitor Santini Bessa - Curso HTML e CSS_ ambientes de desenvolvimento, estrutura de arquivos e tags - Alura.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>HTML E CSS: CLASSES, POSICIONAMENTO E FLEXBOX</h3>
+                        <p class="institution">ALURA</p>
+                        <p class="course-info">Concluído em 2025 • 8h</p>
+                        <a href="certificados/Vitor Santini Bessa - Curso HTML e CSS_ Classes, posicionamento e Flexbox - Alura.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Conhecendo Collections Java</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 4h</p>
+                        <a href="certificados/Vitor Santini Bessa - Conhecendo Collections Java.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Debugging e o Tratamento de Exceções em Java</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 2h</p>
+                        <a href="certificados/Vitor Santini Bessa - Debugging e o Tratamento de Exceções em Java.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Estruturas de Controle em Java</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 2h</p>
+                        <a href="certificados/Vitor Santini Bessa - Estruturas de Controle em Java.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Herança e Polimorfismo em Java</h3>
+                        <p class="institution">DIO</p>
+                        <p class="course-info">Concluído em 2025 • 2h</p>
+                        <a href="certificados/Vitor Santini Bessa - Herança e Polimorfismo em Java.pdf" target="_blank" class="certificate-link">Ver Certificado ↗</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="projetos" class="container projects">
+                <h2>Projetos</h2>
+                <div class="projects-grid">
+                    <article class="card">
+                        <div class="card-media" aria-hidden="true">
+                            <img src="images/automov.png" alt="Projeto 1" width="330" height="120" >
+                        </div>
+                        <div class="card-body">
+                            <h3>Marketplace</h3>
+                            <p>Site para compra e venda de automóveis desenvolvido durante a graduação, utilizando HTML, CSS, Javascript e PHP.</p>
+                            <p class="card-links"><a href="https://github.com/Vbessa13/automov" target="_blank">Código</a></p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media" aria-hidden="true">
+                            <img src="images/cardboard.png" alt="Projeto 2" width="330" height="120" >
+                        </div>
+                        <div class="card-body">
+                            <h3>Cardboard</h3>
+                            <p>Projeto de apresentação de cards desenvolvido durante a MapaDev-Week do @devemdobro, utilizando html,css e javascript.</p>
+                            <p class="card-links"><a href="https://github.com/Vbessa13/Projeto-Pokemon-MapaDev-Week/tree/main" target="_blank">Código</a></p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-media" aria-hidden="true">
+                            <img src="images/loteria.png" alt="Projeto 3" width="330" height="120" >
+                        </div>
+                        <div class="card-body">
+                            <h3>Site Loteria</h3>
+                            <p>Projeto pessoal (em andamento) de site para apostar em loterias. Desenvolvimento utilizando HTML, CSS e JavaScript.</p>
+                            <p class="card-links"><a href="https://github.com/Vbessa13/ProjetoSiteLoteria" target="_blank">Código</a></p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="habilidades" class="container skills">
+                <h2>Habilidades</h2>
+                <div class="skills-list">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">Java</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">Git</span>
+                    <span class="skill">Python</span>
+                </div>
+            </section>
+
+            <section id="contato" class="container contact">
+                <h2>Contato</h2>
+                <p>Quer conversar sobre um projeto, oportunidade ou apenas dizer oi? Envie uma mensagem.</p>
+                <form class="contact-form" action="mailto:seu.email@exemplo.com" method="POST" enctype="text/plain">
+                    <label for="name">Nome</label>
+                    <input id="name" name="name" type="text" required />
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required />
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                    <div class="form-actions">
+                        <button type="submit" class="btn primary">Enviar</button>
+                        <button type="reset" class="btn ghost">Limpar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© <span id="year"></span> Vitor — Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
