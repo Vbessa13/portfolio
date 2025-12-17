@@ -50,8 +50,6 @@
     });
   }
 
-  // --- 3. Tema Dark/Light --- (FOI REMOVIDO COMPLETAMENTE)
-
   // --- 4. SCROLL SPY (Destacar link ativo ao rolar) ---
   const sections = document.querySelectorAll('section');
   const navLinks = document.querySelectorAll('.primary-navigation a');
