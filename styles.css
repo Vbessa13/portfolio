@@ -182,6 +182,12 @@ html, body {
   cursor: pointer;
   font-weight: 500;
 }
+.btn:hover,.btn.btn.ghost:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-color: var(--fg);
+  background-color: var(--primary);
+}
 
 .btn.primary {
   background: var(--primary);
@@ -189,6 +195,12 @@ html, body {
 }
 
 .btn.ghost {
+  background: transparent;
+  border: 1px solid var(--muted);
+  color: var(--fg);
+}
+
+.btn.ghostt {
   background: transparent;
   border: 1px solid var(--muted);
   color: var(--fg);
@@ -298,6 +310,10 @@ html, body {
 .card-links a {
   color: var(--primary);
   text-decoration: none;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
 }
 
 /* Skills */
@@ -487,7 +503,7 @@ html, body {
   transition: all 0.2s ease;
 }
 
-.certificate-link:hover {
+.certificate-link:hover{
   background-color: rgba(255, 255, 255, 0.05);
   border-color: var(--primary);
   padding: 0.2rem 0.6rem;
