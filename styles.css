@@ -230,6 +230,11 @@ html, body {
     gap: 0.3rem;
 }
 
+.personal-info img {
+    vertical-align: middle;
+    margin-right: 0.4rem;
+}
+
 .personal-info strong {
     color: var(--muted);
     font-size: 0.85rem;
